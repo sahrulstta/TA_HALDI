@@ -22,21 +22,26 @@
         <div class="row">
             <!-- NAV BAR -->
             <div class="col-12">
-                <ul class="nav bg-white ">
+                <div>
+                <ul class="nav  ">
                     <li class="nav-item">
-                        <a class="nav-link active" href="Home.html">Home</a>
+                        <a class="nav-link active" href="Home.html">Alternatif</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="Kriteria.html">Kriteria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Alternatif.html">Alternatif Kriteria</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="About.html">About</a>
                     </li>
                 </ul>
+                
             </div>
             <!-- NAV BAR -->
 
-            <div class="col">
+            <div class="col-sm-6">
                 <div class="container p-3 bg-white mt-3">
                     <h2>Alternatif</h2>
 
@@ -45,60 +50,72 @@
                         <input type="text" class="form-control" placeholder="Recipient's username"
                             aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <div class="input-group-append">
-                            <button class="btn btn-outline-info" type="button">Edit</button>
+                            <button class="btn btn-outline-info" type="button" data-toggle="modal"
+                                data-target="#editat">Edit</button>
                             <button class="btn btn-outline-danger" type="button">Delete</button>
                         </div>
-                        <button class="btn btn-outline-success ml-3" type="button">Nilai</button>
+                        <button class="btn btn-outline-success ml-3" type="button" data-toggle="modal"
+                        data-target="#editnilai">Nilai</button>
                     </div>
 
                     <div class="input-group mb-3 mt-3">
                         <input type="text" class="form-control" placeholder="Recipient's username"
                             aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <div class="input-group-append">
-                            <button class="btn btn-outline-info" type="button">Edit</button>
+                            <button class="btn btn-outline-info" type="button" data-toggle="modal"
+                                data-target="#editat">Edit</button>
                             <button class="btn btn-outline-danger" type="button">Delete</button>
                         </div>
-                        <button class="btn btn-outline-success ml-3" type="button">Nilai</button>
+                        <button class="btn btn-outline-success ml-3" type="button" data-toggle="modal"
+                        data-target="#editnilai">Nilai</button>
                     </div>
 
                     <div class="input-group mb-3 mt-3">
                         <input type="text" class="form-control" placeholder="Recipient's username"
                             aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <div class="input-group-append">
-                            <button class="btn btn-outline-info" type="button">Edit</button>
+                            <button class="btn btn-outline-info" type="button" data-toggle="modal"
+                                data-target="#editat">Edit</button>
                             <button class="btn btn-outline-danger" type="button">Delete</button>
                         </div>
-                        <button class="btn btn-outline-success ml-3" type="button">Nilai</button>
+                        <button class="btn btn-outline-success ml-3" type="button" data-toggle="modal"
+                        data-target="#editnilai">Nilai</button>
                     </div>
 
                     <div class="input-group mb-3 mt-3">
                         <input type="text" class="form-control" placeholder="Recipient's username"
                             aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <div class="input-group-append">
-                            <button class="btn btn-outline-info" type="button">Edit</button>
+                            <button class="btn btn-outline-info" type="button" data-toggle="modal"
+                                data-target="#editat">Edit</button>
                             <button class="btn btn-outline-danger" type="button">Delete</button>
                         </div>
-                        <button class="btn btn-outline-success ml-3" type="button">Nilai</button>
+                        <button class="btn btn-outline-success ml-3" type="button" data-toggle="modal"
+                        data-target="#editnilai">Nilai</button>
                     </div>
 
                     <div class="input-group mb-3 mt-3">
                         <input type="text" class="form-control" placeholder="Recipient's username"
                             aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <div class="input-group-append">
-                            <button class="btn btn-outline-info" type="button">Edit</button>
+                            <button class="btn btn-outline-info" type="button" data-toggle="modal"
+                                data-target="#editat">Edit</button>
                             <button class="btn btn-outline-danger" type="button">Delete</button>
                         </div>
-                        <button class="btn btn-outline-success ml-3" type="button">Nilai</button>
+                        <button class="btn btn-outline-success ml-3" type="button" data-toggle="modal"
+                        data-target="#editnilai">Nilai</button>
                     </div>
 
                     <div class="input-group mb-3 mt-3">
                         <input type="text" class="form-control" placeholder="Recipient's username"
                             aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <div class="input-group-append">
-                            <button class="btn btn-outline-info" type="button">Edit</button>
+                            <button class="btn btn-outline-info" type="button" data-toggle="modal"
+                                data-target="#editat">Edit</button>
                             <button class="btn btn-outline-danger" type="button">Delete</button>
                         </div>
-                        <button class="btn btn-outline-success ml-3" type="button">Nilai</button>
+                        <button class="btn btn-outline-success ml-3" type="button" data-toggle="modal"
+                        data-target="#editnilai">Nilai</button>
                     </div>
                     <!-- TAMBAH DATA -->
                     <!-- BUTTON DRITERIA TAMBAH DATA -->
@@ -114,7 +131,7 @@
             </div>
 
 
-            <div class="col">
+            <div class="col-sm-6">
                 <div class="container">
                     <div>
                         <h2 class="volta">
@@ -243,6 +260,61 @@
             </div>
         </div>
     </div>
+
+
+    <!-- Edit alternatif -->
+    <div class="modal fade" id="editat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Tambah Data</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Edit Alternatif -->
+                    <div class="input-group mb-3 mt-3">
+                        <input type="text" class="form-control" placeholder="Recipient's username"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Edit Nilai -->
+     <div class="modal fade" id="editnilai" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+     <div class="modal-dialog modal-lg" role="document">
+         <div class="modal-content">
+             <div class="modal-header">
+                 <h5 class="modal-title" id="exampleModalLabel">Tambah Data</h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                 </button>
+             </div>
+             <div class="modal-body">
+                 <!-- Alternati Nilai -->
+                 <div class="input-group mb-3 mt-3">
+                     <input type="text" class="form-control" placeholder="Masukan nilai"
+                         aria-label="Recipient's username" aria-describedby="basic-addon2">
+                 </div>
+             </div>
+             <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                 <button type="button" class="btn btn-primary">Save changes</button>
+             </div>
+         </div>
+     </div>
+ </div>
+
+
 
 
     <!-- Optional JavaScript -->
